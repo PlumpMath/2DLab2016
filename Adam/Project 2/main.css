@@ -1,0 +1,22 @@
+#mapid {
+    height: 360px;
+}
+
+div.coloured-bg {
+    background-color: #808080;
+}
+
+div.fill-red {
+    background-color: red;
+}
+
+div.fill-green {
+    background-color: green;
+}
+div.fill-blue {
+    background-color: blue;
+}
+
+div.hh {
+    height: 200px;
+}

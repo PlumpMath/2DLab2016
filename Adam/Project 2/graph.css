@@ -2,10 +2,6 @@
     fill: steelblue;
 }
 
-#graph {
-    margin-bottom: 2em;
-}
-
 .bar:hover {
     fill: brown;
 }
