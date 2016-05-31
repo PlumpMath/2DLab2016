@@ -1,9 +1,17 @@
 $boxHeight: 500px;
 $backgroundColour: #1C1D21;
 
+// Colour pallete
+$first: #93C47C;
+$second: #D47D9C;
+$third: #FADAC1;
+$fourth: #F6D5E5;
+$fith: #CEEAEE;
+$sixth: #317A7B;
+
+
 @mixin boxConfig ($height){
     height: $height; // come back to this again because it needs to change acording to the screen size
-    margin-top: 10%;
 }
 
 body{
@@ -34,21 +42,19 @@ h1#projTitle{
         font-style: normal;
 
         letter-spacing: 0.5em;
-
-        em{
-            &.first{color: #93C47C;}
-            &.second{color: #D47D9C;}
-            &.third{color: #FADAC1;}
-            &.fourth{color: #F6D5E5;}
-            &.fith{color: #CEEAEE;}
-            &.sixth{color: #317A7B;}
-        }
     }
 }
 
+.first{color: $first;}
+.second{color: $second;}
+.third{color: $third;}
+.fourth{color: $fourth;}
+.fith{color: $fith;}
+.sixth{color: $sixth;}
+
 h2#projTagLine{
     font: {
-        size: 1.75em;
+        size: 2.5em;
     }
     // color:#FF5108;
 }
@@ -56,6 +62,8 @@ h2#projTagLine{
 /*! divs; */
 
 div{
+
+    &.row{ margin-top: 10%; }
 
     &#mapid{
         @include boxConfig($boxHeight);
@@ -66,13 +74,28 @@ div{
 
         //! charts
         & svg{
-
+            &.chaartingAmount{
+                text{
+                    fill: $fith;
+                }
+                rect{
+                    fill: $first;
+                }
+            }
         }
+    }
+
+    &.row.first, &.row.second{
+        margin-top: 0px;
     }
 }
 
 p{
     &.middleText{
         text-align: center;
+    }
+
+    font: {
+        size: 1.5em;
     }
 }

@@ -15,39 +15,58 @@ h1#projTitle em#colourfull {
   font-style: normal;
   letter-spacing: 0.5em;
 }
-h1#projTitle em#colourfull em.first {
+
+.first {
   color: #93C47C;
 }
-h1#projTitle em#colourfull em.second {
+
+.second {
   color: #D47D9C;
 }
-h1#projTitle em#colourfull em.third {
+
+.third {
   color: #FADAC1;
 }
-h1#projTitle em#colourfull em.fourth {
+
+.fourth {
   color: #F6D5E5;
 }
-h1#projTitle em#colourfull em.fith {
+
+.fith {
   color: #CEEAEE;
 }
-h1#projTitle em#colourfull em.sixth {
+
+.sixth {
   color: #317A7B;
 }
 
 h2#projTagLine {
-  font-size: 1.75em;
+  font-size: 2.5em;
 }
 
 /*! divs; */
+div.row {
+  margin-top: 10%;
+}
 div#mapid {
   height: 500px;
-  margin-top: 10%;
 }
 div#barChart {
   height: 300px;
-  margin-top: 10%;
+}
+div#barChart svg.chaartingAmount text {
+  fill: #CEEAEE;
+}
+div#barChart svg.chaartingAmount rect {
+  fill: #93C47C;
+}
+div.row.first, div.row.second {
+  margin-top: 0px;
 }
 
+p {
+  font-size: 1.5em;
+}
 p.middleText {
   text-align: center;
 }
