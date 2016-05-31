@@ -1,0 +1,55 @@
+body {
+  color: #F5F5F5;
+  font-family: "Proxima Nova", "Halvetica Neue", "Halvetica", "Arial", "sans-serif";
+  background-color: #1C1D21;
+  min-heigh: 1vh;
+}
+
+/*! Title and tag line */
+h1#projTitle {
+  font-size: 4.5em;
+}
+h1#projTitle em#colourfull {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.5em;
+}
+h1#projTitle em#colourfull em.first {
+  color: #93C47C;
+}
+h1#projTitle em#colourfull em.second {
+  color: #D47D9C;
+}
+h1#projTitle em#colourfull em.third {
+  color: #FADAC1;
+}
+h1#projTitle em#colourfull em.fourth {
+  color: #F6D5E5;
+}
+h1#projTitle em#colourfull em.fith {
+  color: #CEEAEE;
+}
+h1#projTitle em#colourfull em.sixth {
+  color: #317A7B;
+}
+
+h2#projTagLine {
+  font-size: 1.75em;
+}
+
+/*! divs; */
+div#mapid {
+  height: 500px;
+  margin-top: 10%;
+}
+div#barChart {
+  height: 300px;
+  margin-top: 10%;
+}
+
+p.middleText {
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

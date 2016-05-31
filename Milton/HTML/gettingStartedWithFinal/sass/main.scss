@@ -1,0 +1,78 @@
+$boxHeight: 500px;
+$backgroundColour: #1C1D21;
+
+@mixin boxConfig ($height){
+    height: $height; // come back to this again because it needs to change acording to the screen size
+    margin-top: 10%;
+}
+
+body{
+    color: #F5F5F5;
+    font: {
+        family: "Proxima Nova", "Halvetica Neue", "Halvetica", "Arial", "sans-serif";
+    }
+    background: {
+        color: $backgroundColour;
+    }
+    min-heigh:1vh;
+}
+
+/*! Title and tag line */
+
+h1#projTitle{
+
+    font: {
+        size: 4.5em;
+    }
+
+    em#colourfull{
+        text: {
+            transform: uppercase;
+            decoration: none;
+        }
+
+        font-style: normal;
+
+        letter-spacing: 0.5em;
+
+        em{
+            &.first{color: #93C47C;}
+            &.second{color: #D47D9C;}
+            &.third{color: #FADAC1;}
+            &.fourth{color: #F6D5E5;}
+            &.fith{color: #CEEAEE;}
+            &.sixth{color: #317A7B;}
+        }
+    }
+}
+
+h2#projTagLine{
+    font: {
+        size: 1.75em;
+    }
+    // color:#FF5108;
+}
+
+/*! divs; */
+
+div{
+
+    &#mapid{
+        @include boxConfig($boxHeight);
+    }
+
+    &#barChart{
+        @include boxConfig(300px);
+
+        //! charts
+        & svg{
+
+        }
+    }
+}
+
+p{
+    &.middleText{
+        text-align: center;
+    }
+}
