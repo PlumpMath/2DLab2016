@@ -26,7 +26,7 @@ div#barChart svg { display: block; }
 div#barChart svg.chaartingAmount { margin-left: auto; margin-right: auto; }
 div#barChart svg.chaartingAmount text { fill: #FADAC1; }
 div#barChart svg.chaartingAmount rect { fill: #93C47C; }
-div#pieCharting.pieChart { height: 500px; }
+div#pieCharting.pieChart { color: black; height: 500px; }
 div#pieCharting.pieChart text { fill: #317A7B; }
 div.row.firstRow, div.row.secondRow { margin-top: 0px; }
 
