@@ -15,7 +15,7 @@ $sixth: #317A7B;
 }
 
 body{
-    color: #F5F5F5;
+    color: #f7f7f7;
     font: {
         family: "Proxima Nova", "Halvetica Neue", "Halvetica", "Arial", "sans-serif";
     }
@@ -74,18 +74,31 @@ div{
 
         //! charts
         & svg{
+            display: block;
             &.chaartingAmount{
                 text{
-                    fill: $fith;
+                    fill: $third;
                 }
                 rect{
                     fill: $first;
+                }
+
+                margin:{
+                    left: auto;
+                    right: auto;
                 }
             }
         }
     }
 
-    &.row.first, &.row.second{
+    &#pieCharting.pieChart{
+        height: $boxHeight;
+        text{
+            fill: $sixth;
+        }
+    }
+
+    &.row.firstRow, &.row.secondRow{
         margin-top: 0px;
     }
 }
@@ -98,4 +111,11 @@ p{
     font: {
         size: 1.5em;
     }
+}
+
+img.popImage{
+    height: 100px;
+    width: 150px;
+    display: block;
+    margin-bottom: 5px;
 }

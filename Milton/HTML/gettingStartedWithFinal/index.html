@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="/css/normalizer.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="/css/bootstrap-theme.css" media="screen" title="no title" charset="utf-8">
+    <!-- <link rel="stylesheet" href="/css/leaflet.css" media="screen" title="no title" charset="utf-8"> -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <link rel="stylesheet" href="/css/c3.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="/css/leaflet.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row first">
+        <div class="row firstRow">
             <div class="col-md-8 col-md-offset-2">
                 <h1 id="projTitle">The Quest For <em id="colourfull">
                     <em class="first">C</em><em class="second">O</em><em class="third">L</em><em class="fourth">O</em><em class="fith">U</em><em class="sixth">R</em>
                 </em></h1>
             </div>
         </div>
-        <div class="row second">
+        <div class="row secondRow">
             <div class="col-md-8 col-md-offset-2">
                 <h2 id="projTagLine">My quest for vibrancy in London</h2>
             </div>
@@ -34,10 +36,13 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <p class="middleText sixth">
-                    Most of my journey took place in the river thames
+                    Most of my journey took place along the river thames
                 </p>
                 <p class="middleText sixth">
-                    As I went down through the river, i cataloged what i saw
+                    As I went down through my journey I took many pictures
+                </p>
+                <p class="middleText sixth">
+                    I selected a couple (the ones I liked more) and cataloged what was in them
                 </p>
             </div>
         </div>
@@ -54,18 +59,23 @@
                     But that doesn't really matter,
                     because what i was trully after was colour and vibrancy
                 </p>
-                <p class="middleText canBeTaken second">
-                    press the buttons on the maker pop up in the maps for more
-                </p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="pieCharting">
 
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <script src="js/jquery2.js" charset="utf-8"></script>
-<script src="js/leaflet.js" charset="utf-8"></script>
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 <script src="js/bootstrap.js" charset="utf-8"></script>
 <script src="js/d3.min.js" charset="utf-8"></script>
-<script src="js/map.js" charset="utf-8"></script>
+<script src="js/c3.js" charset="utf-8"></script>
 <script src="js/barChart.js" charset="utf-8"></script>
+<script src="js/main.js" charset="utf-8"></script>
+<script src="js/map.js" charset="utf-8"></script>
 </html>

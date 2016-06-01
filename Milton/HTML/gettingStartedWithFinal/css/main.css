@@ -1,74 +1,38 @@
-body {
-  color: #F5F5F5;
-  font-family: "Proxima Nova", "Halvetica Neue", "Halvetica", "Arial", "sans-serif";
-  background-color: #1C1D21;
-  min-heigh: 1vh;
-}
+body { color: #f7f7f7; font-family: "Proxima Nova", "Halvetica Neue", "Halvetica", "Arial", "sans-serif"; background-color: #1C1D21; min-heigh: 1vh; }
 
 /*! Title and tag line */
-h1#projTitle {
-  font-size: 4.5em;
-}
-h1#projTitle em#colourfull {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-style: normal;
-  letter-spacing: 0.5em;
-}
+h1#projTitle { font-size: 4.5em; }
+h1#projTitle em#colourfull { text-transform: uppercase; text-decoration: none; font-style: normal; letter-spacing: 0.5em; }
 
-.first {
-  color: #93C47C;
-}
+.first { color: #93C47C; }
 
-.second {
-  color: #D47D9C;
-}
+.second { color: #D47D9C; }
 
-.third {
-  color: #FADAC1;
-}
+.third { color: #FADAC1; }
 
-.fourth {
-  color: #F6D5E5;
-}
+.fourth { color: #F6D5E5; }
 
-.fith {
-  color: #CEEAEE;
-}
+.fith { color: #CEEAEE; }
 
-.sixth {
-  color: #317A7B;
-}
+.sixth { color: #317A7B; }
 
-h2#projTagLine {
-  font-size: 2.5em;
-}
+h2#projTagLine { font-size: 2.5em; }
 
 /*! divs; */
-div.row {
-  margin-top: 10%;
-}
-div#mapid {
-  height: 500px;
-}
-div#barChart {
-  height: 300px;
-}
-div#barChart svg.chaartingAmount text {
-  fill: #CEEAEE;
-}
-div#barChart svg.chaartingAmount rect {
-  fill: #93C47C;
-}
-div.row.first, div.row.second {
-  margin-top: 0px;
-}
+div.row { margin-top: 10%; }
+div#mapid { height: 500px; }
+div#barChart { height: 300px; }
+div#barChart svg { display: block; }
+div#barChart svg.chaartingAmount { margin-left: auto; margin-right: auto; }
+div#barChart svg.chaartingAmount text { fill: #FADAC1; }
+div#barChart svg.chaartingAmount rect { fill: #93C47C; }
+div#pieCharting.pieChart { height: 500px; }
+div#pieCharting.pieChart text { fill: #317A7B; }
+div.row.firstRow, div.row.secondRow { margin-top: 0px; }
 
-p {
-  font-size: 1.5em;
-}
-p.middleText {
-  text-align: center;
-}
+p { font-size: 1.5em; }
+p.middleText { text-align: center; }
+
+img.popImage { height: 100px; width: 150px; display: block; margin-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */

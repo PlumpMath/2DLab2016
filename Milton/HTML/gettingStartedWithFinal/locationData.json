@@ -1,34 +1,259 @@
 [
-    {"position": [51.503433,0.006632], "dir": "images/thamesJourney1.jgp"},
-    {"position": [51.503949,-0.004054], "dir": "images/thamesJourney2.jgp"},
-    {"position": [51.493198,-0.001809], "dir": "images/thamesJourney3.jgp"},
-    {"position": [51.4875984,-0.0035621], "dir": "images/thamesJourney4.jgp"},
-    {"position": [51.485039, -0.008087], "dir": "images/thamesJourney5.jgp"},
-    {"position": [51.484717, -0.009984], "dir": "images/thamesJourney6.jgp"},
-    {"position": [51.488468, -0.026464], "dir": "images/thamesJourney7.jgp"},
-    {"position": [51.4970158,-0.0327669], "dir": "images/thamesJourney8.jgp"},
-    {"position": [51.497181, -0.030665], "dir": "images/thamesJourney9.jgp"},
-    {"position": [51.499354, -0.031027], "dir": "images/thamesJourney10.jgp"},
-    {"position": [51.501144, -0.030372], "dir": "images/thamesJourney11.jgp"},
-    {"position": [51.503895, -0.029268], "dir": "images/thamesJourney12.jgp"},
-    {"position": [51.505262, -0.049541], "dir": "images/thamesJourney13.jgp"},
-    {"position": [51.502521, -0.054571], "dir": "images/thamesJourney14.jgp"},
-    {"position": [51.503835, -0.070965], "dir": "images/thamesJourney15.jgp"},
-    {"position": [51.505516, -0.076321], "dir": "images/thamesJourney16.jgp"},
-    {"position": [51.506358, -0.077492], "dir": "images/thamesJourney17.jgp"},
-    {"position": [51.506345, -0.078558], "dir": "images/thamesJourney18.jgp"},
-    {"position": [51.506770, -0.080102], "dir": "images/thamesJourney19.jgp"},
-    {"position": [51.507181, -0.083054], "dir": "images/thamesJourney20.jgp"},
-    {"position": [51.507239, -0.082240], "dir": "images/thamesJourney21.jgp"},
-    {"position": [51.507272, -0.084521], "dir": "images/thamesJourney22.jgp"},
-    {"position": [51.508659, -0.092778], "dir": "images/thamesJourney23.jgp"},
-    {"position": [51.509457, -0.097685], "dir": "images/thamesJourney24.jgp"},
-    {"position": [51.510343, -0.101848], "dir": "images/thamesJourney25.jgp"},
-    {"position": [51.507338, -0.118300], "dir": "images/thamesJourney26.jgp"},
-    {"position": [51.506680, -0.118956], "dir": "images/thamesJourney27.jgp"},
-    {"position": [51.502551, -0.120703], "dir": "images/thamesJourney28.jgp"},
-    {"position": [51.502705,-0.129914], "dir" : "images/thamesJourney29.jpg"},
-    {"position": [51.506677, -0.131927], "dir": "images/thamesJourney30.jgp"},
-    {"position": [51.5107883,-0.1317058], "dir": "images/thamesJourney31.jgp"},
-    {"position": [51.5118571,-0.1315291], "dir" : "images/thamesJourney32.jpg"}
+    {
+        "position": [51.503433,0.006632],
+        "dir": "images/thamesJourney1.jpg",
+        "colourInfo": {
+            "colour" : ["#9aa2b0", "#3a3a3e","#060606", "#4c3f32", "#522d3f", "#7d6579"],
+            "percentages": [52.8, 29.4, 8.6, 6.7, 1.7, 0.9]
+        }
+    },
+    {
+        "position": [51.503949,-0.004054],
+        "dir": "images/thamesJourney2.jpg",
+        "colourInfo": {
+            "colour": ["#3b3b3b", "#9ba1ac", "#6a7a91", "#745a3d"],
+            "percentages": [45.3, 28.32, 24.0, 2.5]
+        }
+    },
+    {
+        "position": [51.493198,-0.001809],
+        "dir": "images/thamesJourney3.jpg",
+        "colourInfo": {
+            "colour" : ["#595c62", "#848a9a", "#333236", "#7c685c", "#b5b4ad"],
+            "percentages": [45.2,41.8,9.2,2.8,0.9]
+        }
+    },
+    {
+        "position": [51.4875984,-0.0035621],
+        "dir": "images/thamesJourney4.jpg",
+        "colourInfo": {
+            "colour" : ["#b9bec5","#262729", "#757678", "#57524c"],
+            "percentages": [43.1, 29.2, 18.7, 9.0]
+         }
+    },
+    {
+        "position": [51.485039, -0.008087],
+        "dir": "images/thamesJourney5.jpg",
+        "colourInfo": {
+            "colour" : ["#3c3d40", "#f4f7f9", "#787063", "#a4a2a1", "#544f3f", "#5b6445"],
+            "percentages": [41.6, 24.9, 15.4, 10.8, 5.8, 1.5]
+        }
+    },
+    {
+        "position": [51.484717, -0.009984],
+        "dir": "images/thamesJourney6.jpg",
+        "colourInfo": {
+            "colour" : ["#3a434d", "#3a443c", "#96999f", "#7d8571", "#503736", "#dbdedc"],
+            "percentages": [67.2,26.0,3.0,1.3,1.3,1.1]
+        }
+    },
+    {
+        "position": [51.488468, -0.026464],
+        "dir": "images/thamesJourney7.jpg",
+        "colourInfo": {
+            "colour" : ["#cecfcd", "#3f434e", "#73757a", "#6d4746"],
+            "percentages": [60.6,29.1,10.0,0.4]
+        }
+    },
+    {
+        "position": [51.4970158,-0.0327669],
+        "dir": "images/thamesJourney8.jpg",
+        "colourInfo": {
+            "colour" : ["#d2d3d8", "#756753", "#4d4642", "#98938d", "#222622", "#beae98", "#6c724a", "#845543"],
+            "percentages": [25.0,21.1,16.9,16.6,13.0,5.4,1.2,0.8]
+        }
+    },
+    {
+        "position": [51.497181, -0.030665],
+        "dir": "images/thamesJourney9.jpg",
+        "colourInfo": {
+            "colour" : ["#dbdbdd", "#9e9895", "#564f48", "#9e8973", "#835c50"],
+            "percentages": [39.3, 38.7, 17.2, 4.2, 0.6]
+        }
+    },
+    {
+        "position": [51.499354, -0.031027],
+        "dir": "images/thamesJourney10.jpg",
+        "colourInfo": {
+            "colour" : ["#c9cacc", "#54503e", "#9a8976", "#33352b", "#9a9999", "#7c6a50", "#7a7c5f", "#71655f"],
+            "percentages": [46.3,17.3,7.7,7.5,7.1,6.7,4.2,3.3]
+        }
+    },
+    {
+        "position": [51.501144, -0.030372],
+        "dir": "images/thamesJourney11.jpg",
+        "colourInfo": {
+            "colour" : ["#d0cfd3", "#343e4d", "#685f55", "#433e3b", "#7c858b"],
+            "percentages": [44.2,27.1,13.2,11.9,3.6]
+        }
+    },
+    {
+        "position": [51.503895, -0.029268],
+        "dir": "images/thamesJourney12.jpg",
+        "colourInfo": {
+            "colour" : ["#ceccce", "#636873", "#949192", "#45454a"],
+            "percentages": [58.8,22.6,9.4,9.2]
+        }
+    },
+    {
+        "position": [51.505262, -0.049541],
+        "dir": "images/thamesJourney13.jpg",
+        "colourInfo": {
+            "colour" : ["#2d3036", "#e2e1e2", "#717274", "#a6a7a8", "#6c5f54", "#807f5e", "#859e99"],
+            "percentages": [44.3,39.5,6.2,3.9,3.8,1.2,1.0]
+        }
+    },
+    {
+        "position": [51.502521, -0.054571],
+        "dir": "images/thamesJourney14.jpg",
+        "colourInfo": {
+            "colour" : ["#413f45", "#f7f7f7", "#786c60", "#9a9597", "#60654b"],
+            "percentages": [54.0,38.3,3.5,2.2,2.0]
+        }
+    },
+    {
+        "position": [51.503835, -0.070965],
+        "dir": "images/thamesJourney15.jpg",
+        "colourInfo": {
+            "colour" : ["#f7f7f7", "#3e3e43", "#aca7a8", "#777171"],
+            "percentages": [34.3,33.5,24.4,7.9]
+        }
+    },
+    {
+        "position": [51.505516, -0.076321],
+        "dir": "images/thamesJourney16.jpg",
+        "colourInfo": {
+            "colour" : ["#e6e6e6", "#393c46", "#1e2023", "#6a6a6d", "#4d473c"],
+            "percentages": [45.0,28.3,15.5,6.1,5.2]
+        }
+    },
+    {
+        "position": [51.506358, -0.077492],
+        "dir": "images/thamesJourney17.jpg",
+        "colourInfo": {
+            "colour" : ["#d8d8d8", "#3a3a3f", "#918c8c"],
+            "percentages": [54.6,28.5,16.8]
+        }
+    },
+    {
+        "position": [51.506345, -0.078558],
+        "dir": "images/thamesJourney18.jpg",
+        "colourInfo": {
+            "colour" : ["#3b434c", "#f3f3f3", "#7f848d", "#b6bbbd"],
+            "percentages": [57.2,33.3,5.0,4.5]
+        }
+    },
+    {
+        "position": [51.506770, -0.080102],
+        "dir": "images/thamesJourney19.jpg",
+        "colourInfo": {
+            "colour" : ["#998e87", "#3d4148", "#7d8e9c", "#fbfbfc", "#77767f"],
+            "percentages": [39.6,21.7,18.4,10.6,9.7]
+        }
+    },
+    {
+        "position": [51.507181, -0.083054],
+        "dir": "images/thamesJourney20.jpg",
+        "colourInfo": {
+            "colour" : ["#a8a09a", "#fefefe", "#2e3239", "#635c5c", "#767882", "#8f9cb8"],
+            "percentages": [34.7,21.7,16.9,14.8,11.2,0.7]
+        }
+    },
+    {
+        "position": [51.507239, -0.082240],
+        "dir": "images/thamesJourney21.jpg",
+        "colourInfo": {
+            "colour" : ["#9da6b4", "#817768", "#655d3d" , "#b9af9d", "#46403d", "#3c5461"],
+            "percentages": [42.8,16.1,15.8,13.0,8.2,4.1]
+        }
+    },
+    {
+        "position": [51.507272, -0.084521],
+        "dir": "images/thamesJourney22.jpg",
+        "colourInfo": {
+            "colour" : ["#8b8785", "#d1d1d1", "#4d5059"],
+            "percentages": [46.1,39.3,14.6]
+        }
+    },
+    {
+        "position": [51.508659, -0.092778],
+        "dir": "images/thamesJourney23.jpg",
+        "colourInfo": {
+            "colour" : ["#958b81", "#4f4e50", "#2b282b", "#715b49", "#d4dce6", "#d1c5bc", "#738795", "#c7aa84", "#4d5132"],
+            "percentages": [38.1,24.7,15.9,7.4,5.9,3.6,1.7,1.5,1.1]
+        }
+    },
+    {
+        "position": [51.509457, -0.097685],
+        "dir": "images/thamesJourney24.jpg",
+        "colourInfo": {
+            "colour" : ["#e8e8e8", "#202020", "#36392b", "#4d4b53", "#92947f", "#8a716a"],
+            "percentages": [31.3,19.8,18.7,18.7,0.9,0.5]
+        }
+    },
+    {
+        "position": [51.510343, -0.101848],
+        "dir": "images/thamesJourney25.jpg",
+        "colourInfo": {
+            "colour" : ["#b9bec9", "#817b78", "#5b565a", "#373332", "#697487"],
+            "percentages": [62.4,15.8,13.6,7.9,0.3]
+        }
+    },
+    {
+        "position": [51.507338, -0.118300],
+        "dir": "images/thamesJourney26.jpg",
+        "colourInfo": {
+            "colour" : ["#e3e2e5", "#494848", "#a4a1a0", "#807b78", "#846f3d", "#af994a", "#5e502e"],
+            "percentages": [35.9,32.1,26.9,4.3,0.4,0.2,0.2]
+        }
+    },
+    {
+        "position": [51.506680, -0.118956],
+        "dir": "images/thamesJourney27.jpg",
+        "colourInfo": {
+            "colour" : ["#dddde0", "#383939", "#716e6e", "#836f61"],
+            "percentages": [49.6,32.3,15.5,2.6]
+        }
+    },
+    {
+        "position": [51.502551, -0.120703],
+        "dir": "images/thamesJourney28.jpg",
+        "colourInfo": {
+            "colour" : ["#d8d5d8", "#938e8b", "#565151", "#2f2f2f", "#6d393c", "#d77e7d", "#9a3b40", "#745346"],
+            "percentages": [56.3,17.5,13.4,11.6,0.7,0.2,0.2,0.1]
+        }
+    },
+    {
+        "position": [51.502705,-0.129914],
+        "dir" : "images/thamesJourney29.jpg",
+        "colourInfo": {
+            "colour" : ["#4f5439", "#6f7d49", "#23241c", "#a09383", "#cdbeb2"],
+            "percentages": [57.1,30.6,5.0,4.1,3.2]
+        }
+    },
+    {
+        "position": [51.506677, -0.131927],
+        "dir": "images/thamesJourney30.jpg",
+        "colourInfo": {
+            "colour" : ["#3a4230", "#37373d", "#9a9995", "#6c7068", "#af968c", "#d0cfce", "#61656c", "#41582b"],
+            "percentages": [41.1,16.1,10.7,10.2,7.6,6.0,5.6,2.7]
+        }
+    },
+    {
+        "position": [51.5107883,-0.1317058],
+        "dir": "images/thamesJourney31.jpg",
+        "colourInfo": {
+            "colour" : ["#413934", "#7e796d", "#c3cbd5", "#bfb7ad", "#160f14", "#825941", "#535a2c", "#a96d3f", "#89754a", "#68908e"],
+            "percentages": [28.2,25.4,24.8,8.7,5.0,3.0,1.6,1.6,1.3,0.4]
+        }
+    },
+
+    {
+        "position": [51.5118571,-0.1315291],
+        "dir" : "images/thamesJourney32.jpg",
+        "colourInfo": {
+            "colour" : ["#1e1717", "#706c6e", "#d9d6d4", "#9f7263", "#3b2313", "#d0a367", "#dd9f4f", "#6f4826", "#f13d47", "#b74747"],
+            "percentages": [20.0,18.0,17.5,12.9,11.4,10.8,4.5,3.6,0.6,0.5]
+        }
+    }
 ]
