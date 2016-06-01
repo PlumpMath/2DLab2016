@@ -24,7 +24,7 @@
             // so any event listeners bound to them simply disapear after they get clicke closed
             L.marker(obj.position).addTo(mymap).bindPopup(
                 "<img src='" + obj.dir + "' class='popImage'/>"
-                + "<button onclick='buttClicked()' class='inPopup second' id='button"
+                + "<button onclick='buttClicked()' class='inPopup oringina' id='button"
                 + key + "' class='" + "picClick" + "' data-dir='" + obj.dir
                 + "' data-colours='" + JSON.stringify(obj.colourInfo) + "'>Click me to know more</button>").openPopup();
             });

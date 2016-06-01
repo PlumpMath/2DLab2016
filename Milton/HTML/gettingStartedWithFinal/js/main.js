@@ -25,6 +25,10 @@ function buttClicked(){
                     return d3.format('$')(value);
                 }
             }
+        },
+        size: {
+            height: 500,
+            width: 500
         }
     });
 
