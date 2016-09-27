@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 
 <html>
-	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Leaflet Basic Example</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="css/leaflet.css">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Leaflet Basic Example</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/leaflet.css">
 	</head>
 
 	<body style="zoom: 1;">
 
-		<!-- THIS IS OuR MAP! Note the 'id' of 'map' which will be 
+		<!-- THIS IS OuR MAP! Note the 'id' of 'map' which will be
 referenced in the JS variable 'map' below -->
 		<div id="map" style="width: 600px; height: 400px; position: relative;" class="leaflet-container leaflet-fade-anim" tabindex="0"></div>
 
@@ -25,31 +27,30 @@ referenced in the JS variable 'map' below -->
 		<script>
 			// function to measure distance btw 2 points in m
 			// from http://stackoverflow.com/questions/639695/how-to-convert-latitude-or-longitude-to-meters
-			
-			function measure(lat1, lon1, lat2, lon2){  // generally used geo measurement function
+
+			function measure(lat1, lon1, lat2, lon2) { // generally used geo measurement function
 				var R = 6378.137; // Radius of earth in KM
 				var dLat = (lat2 - lat1) * Math.PI / 180;
 				var dLon = (lon2 - lon1) * Math.PI / 180;
-				var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+				var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
 					Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-					Math.sin(dLon/2) * Math.sin(dLon/2);
-				var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+					Math.sin(dLon / 2) * Math.sin(dLon / 2);
+				var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 				var d = R * c;
 				return d * 1000; // meters
 			}
-			
-			function measureLocs( loc1, loc2)
-			{
+
+			function measureLocs(loc1, loc2) {
 				return measure(loc1[0], loc1[1], loc2[0], loc2[1]);
 			}
-			
-			var airlineLoc = [ 51.4996659, 0.0082206 ]; // from http://www.openstreetmap.org/node/1719465842
+
+			var airlineLoc = [51.4996659, 0.0082206]; // from http://www.openstreetmap.org/node/1719465842
 			var royaldocsLoc = [51.5077671, 0.0181056];
 			var zoomLevel = 13;
-			
+
 			console.log("Airline is " + measureLocs(airlineLoc, royaldocsLoc) + "m long");
-			
-			
+
+
 			// this line creates my map on the page - the arguments are:
 			// [ latitude, longitude ], zoom level
 			var map = L.map('map').setView(airlineLoc, zoomLevel);
@@ -60,7 +61,7 @@ referenced in the JS variable 'map' below -->
 				id: 'basic-map'
 			}).addTo(map);
 
-			
+
 			// add a marker in the given location, attach some popup content to it and open the popup
 			var baseballIcon = L.icon({
 				iconUrl: 'img/baseball-marker.png',
@@ -73,18 +74,20 @@ referenced in the JS variable 'map' below -->
 				iconUrl: 'img/marker-icon.png',
 				shadowUrl: 'img/marker-shadow.png',
 				iconSize: [25, 41],
-				iconAnchor: [25/2, 41], // make sure the pin is on the right spot!
+				iconAnchor: [25 / 2, 41], // make sure the pin is on the right spot!
 				popupAnchor: [0, -33]
 			});
-			
+
 			// create a marker on the map (a pin, or other clickable thing)
-			
-			L.marker(airlineLoc, {icon: pinIcon}).addTo(map)
-			.bindPopup('Emirates Airline');
+
+			L.marker(airlineLoc, {
+					icon: pinIcon
+				}).addTo(map)
+				.bindPopup('Emirates Airline');
 			//.openPopup();
 
-			
-			L.circleMarker(royaldocsLoc, {
+
+			L.marker(royaldocsLoc, {
 				radius: 8,
 				fillColor: "#ff7800",
 				color: "#000",
@@ -92,20 +95,21 @@ referenced in the JS variable 'map' below -->
 				opacity: 1,
 				fillOpacity: 0.8
 			}).addTo(map);
-			
+
 			// leaflet docs!
 			// http://leafletjs.com/reference.html
-			
-			var emiratesLine = L.polyline( 
-				[airlineLoc,royaldocsLoc], // points to draw line between
+
+			var emiratesLine = L.polyline(
+				[airlineLoc, royaldocsLoc], // points to draw line between
 				{
 					color: 'red',
-				 	opacity: 0.6
+					opacity: 0.6
 				}
 			).addTo(map);
-			
+
 		</script>
 
 
 	</body>
+
 </html>

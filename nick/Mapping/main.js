@@ -34,6 +34,17 @@ function jsonFunc(data, success) {
     mymap.setView(data[data.length-1].position, 8);
 }
 
+// add sound!
+L.marker([51.3770212, 1.2080567]).addTo(mymap).bindPopup(
+    '<div class="popup">' + 
+    '<audio controls>' +
+    '<source src="https://archive.org/download/horse_and_train_1/horse_and_train.mp3" type="audio/mpeg">' +
+    '    Your browser does not support the audio tag.' +
+    '</audio>' + 
+    '</div>'
+);
+
+
 //
 // added error handling
 //
